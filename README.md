@@ -6,6 +6,11 @@ The EntrainAudio message definition contains a standard ROS message header,
 a string containing the name (including filepath) of an audio file to morph,
 and an integer containing the age of the speaker to use as the target.
 
+## InteractionState
+The InteractionState message definition includes a standard ROS message header,
+and other information about the current interaction state, such as whether or
+not it is the participant's turn to speak.
+
 ## Version and dependency notes
 
 This node was built and tested with:
