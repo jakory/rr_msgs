@@ -8,5 +8,10 @@ Header header
 # Name of the audio file to morph (should include filepath).
 string audio
 
+# Name of a corresponding viseme file (should include filepath). This file
+# should contain a list of phonemes and the time (in ms) at which to display the
+# viseme for that phoneme.
+string viseme_file
+
 # Age of the speaker to entrain to.
 int8 age
