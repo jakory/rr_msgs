@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    EntrainAudio.msg
    InteractionState.msg
+   UserInput.msg
  )
 
 ## Generate added messages and services with any dependencies listed here
