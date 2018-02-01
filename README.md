@@ -11,8 +11,11 @@ and an integer containing the age of the speaker to use as the target.
 ## InteractionState
 
 The InteractionState message definition includes a standard ROS message header,
-and other information about the current interaction state, such as whether or
-not it is the participant's turn to speak.
+and other information about the current interaction state, including:
+
+- whether or not it is the participant's turn to speak (bool)
+- the current interaction state, i.e., a string describing what's happening,
+  e.g, "START INTERACTION", "START SELF DISCLOSURE TASK", "END STORY"
 
 ## UserInput
 

@@ -6,3 +6,6 @@ Header header
 
 # Is it the participant's turn to speak?
 bool is_participant_turn
+
+# Current interaction state. Send strings describing the state.
+string state
