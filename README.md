@@ -8,6 +8,13 @@ The EntrainAudio message definition contains a standard ROS message header,
 a string containing the name (including filepath) of an audio file to morph,
 and an integer containing the age of the speaker to use as the target.
 
+## EntrainmentData
+
+The EntrainmentData message definition contains a standard ROS message header,
+the names of the source file that was entrained to the target file, the output
+file name, and a variety of features detected from the source and target files,
+such as speaking rate and pitch.
+
 ## InteractionState
 
 The InteractionState message definition includes a standard ROS message header,
