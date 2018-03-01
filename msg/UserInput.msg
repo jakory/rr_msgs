@@ -24,3 +24,7 @@ string START = "START"
 string STOP = "STOP"
 string PAUSE = "PAUSE"
 string RESUME = "RESUME"
+
+string YESNO = "YESNO"
+string YES = "YES"
+string NO = "NO"
