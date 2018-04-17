@@ -28,3 +28,5 @@ string RESUME = "RESUME"
 string YESNO = "YESNO"
 string YES = "YES"
 string NO = "NO"
+
+string THEEND = "THEEND"
